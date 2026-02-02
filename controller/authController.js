@@ -79,7 +79,7 @@ exports.postSignup =async (req, res, next) => {
 
               <p style="margin-top:25px;">
                 Cheers,<br />
-                <strong>TodoPro Team</strong>
+                <strong>ToodoPro Team</strong>
               </p>
             </td>
           </tr>
@@ -87,7 +87,7 @@ exports.postSignup =async (req, res, next) => {
           <!-- Footer -->
           <tr>
             <td style="padding-top:25px; font-size:12px; color:#6b7280; text-align:center;">
-              © ${new Date().getFullYear()} TodoPro. All rights reserved.
+              © ${new Date().getFullYear()} ToodoPro. All rights reserved.
             </td>
           </tr>
 
@@ -160,7 +160,7 @@ exports.postLogin = async (req, res, next) => {
 
               <!-- CTA -->
               <div style="text-align:center; margin:30px 0;">
-                <a href="http://localhost:3000/forgot-password"
+                <a href="http://todopro-backend.vercel.app/api/findemail"
                    style="
                      background:#ef4444;
                      color:#ffffff;
@@ -320,4 +320,5 @@ exports.otpverify = async (req, res, next) => {
     }
 
 }
+
 
