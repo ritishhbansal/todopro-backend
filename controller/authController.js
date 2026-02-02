@@ -136,7 +136,7 @@ exports.postLogin = async (req, res, next) => {
           <tr>
             <td align="center" style="padding-bottom:20px;">
               <h1 style="margin:0; font-size:28px; color:#6366f1;">
-                Todo<span style="color:#facc15;">Pro</span>
+                Toodo<span style="color:#facc15;">Pro</span>
               </h1>
             </td>
           </tr>
@@ -147,7 +147,7 @@ exports.postLogin = async (req, res, next) => {
               <p>Hi <strong>${user.fname}</strong>,</p>
 
               <p>
-                We detected a <strong>new login</strong> to your TodoPro account.
+                We detected a <strong>new login</strong> to your ToodoPro account.
               </p>
 
               <p>
@@ -176,7 +176,7 @@ exports.postLogin = async (req, res, next) => {
 
               <p style="margin-top:25px;">
                 Stay safe,<br />
-                <strong>TodoPro Security Team</strong>
+                <strong>ToodoPro Security Team</strong>
               </p>
             </td>
           </tr>
@@ -184,7 +184,7 @@ exports.postLogin = async (req, res, next) => {
           <!-- Footer -->
           <tr>
             <td style="padding-top:25px; font-size:12px; color:#6b7280; text-align:center;">
-              © ${new Date().getFullYear()} TodoPro. All rights reserved.
+              © ${new Date().getFullYear()} ToodoPro. All rights reserved.
             </td>
           </tr>
 
@@ -320,3 +320,4 @@ exports.otpverify = async (req, res, next) => {
     }
 
 }
+
