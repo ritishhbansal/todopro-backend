@@ -27,7 +27,7 @@ exports.postSignup =async (req, res, next) => {
           <tr>
             <td align="center" style="padding-bottom:20px;">
               <h1 style="margin:0; font-size:28px; color:#6366f1;">
-                Todo<span style="color:#facc15;">Pro</span>
+                Toodo<span style="color:#facc15;">Pro</span>
               </h1>
             </td>
           </tr>
@@ -38,12 +38,12 @@ exports.postSignup =async (req, res, next) => {
               <p>Hi <strong>${user.fname}</strong> 👋,</p>
 
               <p>
-                Welcome to <strong>TodoPro</strong>! 🎉  
+                Welcome to <strong>ToodoPro</strong>! 🎉  
                 Your account has been successfully created.
               </p>
 
               <p>
-                With TodoPro, you can:
+                With ToodoPro, you can:
               </p>
 
               <ul style="padding-left:18px; margin:15px 0;">
@@ -69,7 +69,7 @@ exports.postSignup =async (req, res, next) => {
                      font-weight:bold;
                      display:inline-block;
                    ">
-                  Login to TodoPro
+                  Login to ToodoPro
                 </a>
               </div>
 
@@ -318,4 +318,5 @@ exports.otpverify = async (req, res, next) => {
     } else {
         res.json({status: false})
     }
+
 }
